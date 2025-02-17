@@ -166,7 +166,7 @@ span {
     position: absolute;
     top: 10%;
     left: 30%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     font-size: 20rem;
     font-weight: 400;
     line-height: 20rem;
@@ -470,6 +470,17 @@ span {
     html {
         font-size: 55%;
     }
+
+    .home{
+        text-align: center;
+    }
+    .navbar {
+        transition: none !important;
+    }
+    .home {
+        transition: none !important;
+    }
+        
 }
 
 @media (max-width:991px) {
@@ -486,7 +497,9 @@ span {
         flex-direction: column;
         background: var(--bg-color);
         transition: all 0.5s ease;
+        text-align: center;
     }
+
     .navbar a {
         display: block;
         padding: 17px;
@@ -568,3 +581,4 @@ span {
         font-size: 50%;
     }
 }
+
