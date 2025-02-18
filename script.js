@@ -1,6 +1,11 @@
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
+window.onload = function() {
+    window.scrollTo({ top: 50, behavior: "smooth" });
+};
+
+
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
